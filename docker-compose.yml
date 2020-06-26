@@ -3,7 +3,7 @@ version: '3'
 services:
   flask:
     build: .
-    image: tt:latest
+    image: echo-server:latest
     environment:
       - TZ=Asia/Seoul
     ports:
