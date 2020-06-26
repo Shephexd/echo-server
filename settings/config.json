@@ -1,0 +1,8 @@
+{
+  "ENV": "DEVELOPMENT",
+  "MESSAGE": "DevOps",
+  "REDIS": {
+    "host": "redis",
+    "port": "6379"
+  }
+}
