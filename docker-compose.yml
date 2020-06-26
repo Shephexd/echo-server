@@ -1,9 +1,9 @@
 version: '3'
 
 services:
-  flask:
+  echo-server:
     build: .
-    image: tt:latest
+    image: echo-server:latest
     environment:
       - TZ=Asia/Seoul
     ports:
