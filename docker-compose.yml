@@ -1,0 +1,14 @@
+version: '3'
+
+services:
+  flask:
+    build: .
+    image: tt:latest
+    environment:
+      - TZ=Asia/Seoul
+    ports:
+      - "5001:5000"
+  redis:
+    image: redis:latest
+    expose:
+      - 6379
